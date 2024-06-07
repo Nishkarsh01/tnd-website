@@ -1,0 +1,19 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.content {
+  flex: 1;
+  background-color: #101010;
+  color: #a3e635;
+  padding: 20px;
+}

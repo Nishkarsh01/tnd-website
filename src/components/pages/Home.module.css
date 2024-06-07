@@ -1,0 +1,56 @@
+.mainContent {
+  flex: 1;
+  background-color: #101010;
+  color: #a3e635;
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  overflow-y: auto;
+}
+
+.mainContent h2 {
+  border-bottom: 1px solid #a3e635;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.post {
+  background-color: #151515;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+.post h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #a3e635;
+}
+
+.postDate {
+  font-size: 0.9em;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.readMore {
+  background-color: #a3e635;
+  border: none;
+  color: #101010;
+  padding: 10px 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.readMore:hover {
+  background-color: #333;
+  color: #a3e635;
+}

@@ -1,0 +1,33 @@
+/* utility classes */
+
+.space {
+  margin-bottom: 15px
+}
+.post {
+    margin-bottom: 20px;
+
+
+  }
+
+  .post h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+
+  .postDate {
+    font-size: 0.9em;
+
+  }
+
+  .readMore {
+    background-color: transparent;
+    border: 1px solid #a3e635;
+    color: #a3e635;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+
+  .readMore:hover {
+    background-color: #a3e635;
+    color: #101010;
+  }

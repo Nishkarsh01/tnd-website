@@ -1,0 +1,47 @@
+.sidebar {
+  background-color: #151515;
+  color: #a3e635;
+  width: 300px;
+  padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.sidebarTitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.sidebarTitle span {
+  color: red;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #a3e635;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #333;
+}
+
+.active {
+  font-weight: bold;
+}
